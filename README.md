@@ -14,10 +14,10 @@ Portfólio pessoal em português, responsivo e sem dependências externas. Reún
 - Navegação por teclado e respeito à preferência de movimento reduzido.
 
 ## Visualizar
-Abra `index.html` em um navegador. Não é necessário instalar ferramentas nem configurar chaves.
+Baixe os arquivos do repositório e abra `index.html` em um navegador. Não é necessário instalar ferramentas nem configurar chaves.
 
 ## Personalizar
-Edite textos, cores nas variáveis CSS e links em `index.html`. O contato via WhatsApp não foi configurado: nenhum telefone foi inventado ou exposto. Os dados do painel ficam no objeto `datasets` no final do arquivo.
+Edite os textos e links em `index.html`, as cores em `style.css` e as interações em `script.js`. O contato via WhatsApp não foi configurado: nenhum telefone foi inventado ou exposto. Os dados do painel ficam no objeto `datasets` em `script.js`.
 
 ## Limites
 Este é um site estático, sem autenticação, banco, backend, pagamentos ou formulário de envio. As demonstrações não representam contratos ou resultados comerciais comprovados. Não há ferramentas de análise ou cookies.

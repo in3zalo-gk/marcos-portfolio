@@ -25,6 +25,7 @@ with sync_playwright() as p:
     assert page.locator('#orders').inner_text()=='48'
     page.locator('#details').fill('Pet shop: preciso apresentar meus serviços.')
     page.locator('#copy').click()
+    page.wait_for_function("document.getElementById('copyStatus').textContent.length > 0")
     assert page.locator('#copyStatus').inner_text()
     if page.locator('#copyFallback').is_visible():
         assert 'Pet shop' in page.locator('#copyFallback').input_value()
